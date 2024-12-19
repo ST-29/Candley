@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harita Nursery</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script3.js" defer></script>
+    <script async src="script2.js"></script>
+    
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="images/logo1.png" class="logo" alt="" width=auto height="63"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa fa-shopping-cart main-cart"
+                            style="font-size:24px"> <span> 0</span> </i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a class="active" href="cart.html"><i class="fa fa-shopping-cart main-cart"
+                style="font-size:24px"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <div class="containerr">
+
+        <form action="">
+    
+            <div class="row">
+    
+                <div class="col">
+    
+                    <h3 class="title">billing address</h3>
+    
+                    <div class="inputBox">
+                        <span>full name :</span>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="example@example.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>address :</span>
+                        <input type="text" placeholder="house / street / locality">
+                    </div>
+                    <div class="inputBox">
+                        <span>city :</span>
+                        <input type="text" placeholder="meerut">
+                    </div>
+    
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>state :</span>
+                            <input type="text" placeholder="india">
+                        </div>
+                        <div class="inputBox">
+                            <span>zip code :</span>
+                            <input type="text" placeholder="123-456">
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col">
+    
+                    <h3 class="title">payment</h3>
+    
+                    <div class="inputBox">
+                        <span>cards accepted :</span>
+                        <img src="banner/card_img.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>name on card :</span>
+                        <input type="text" placeholder="Mr/Ms xyz">
+                    </div>
+                    <div class="inputBox">
+                        <span>credit card number :</span>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="inputBox">
+                        <span>exp month :</span>
+                        <input type="text" placeholder="january">
+                    </div>
+    
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>exp year :</span>
+                            <input type="number" placeholder="2024">
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+    
+                </div>
+        
+            </div>
+    
+            <input type="submit" value="proceed to checkout" class="submit-btn" onclick="myFunction()">
+    
+        </form>
+    
+    </div> 
+
+
+
+    <section id="newsletter" class="section-p1 section-m1 buypgnewsletter">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email Address">
+            <button class="normal">Sign-Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+
+        <img class="logo" src="images/logo1.png" alt="" width=auto height="65">
+        <div>
+            <div class="col">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>Meerut</p>
+                <p><strong>Phone:</strong>98989229</p>
+                <p><strong>Hours:</strong>9:00am-5:00pm</p>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="Follow">
+            <H4>Follow Us</H4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-pinterest-p"></i>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Candley.</p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+          alert("Your product details are saved");
+        }
+        </script
+</body>
+
+
+</html>
